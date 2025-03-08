@@ -1,0 +1,44 @@
+*{
+
+ background-color: rgb(255, 255, 255);
+
+}
+
+
+h1 {
+
+text-align:center
+
+}
+
+.Mel, .Lisi, .Ross, .Leu {
+    width: 180px;
+    height: auto;
+    padding: 8px;
+    margin: 8px auto;
+    font-size: 14px;
+    text-align: center;
+    border: hidden;
+}
+
+.Mel {
+    background-color: hwb(312 74% 8%);
+    border-top-left-radius: 30px;
+}
+
+.Lisi {
+    background-color: #e4c6ff;
+    border-top-right-radius: 30px;
+}
+
+.Ross {
+    background-color: #c9e6ff;
+    border-top-left-radius: 30px;
+}
+
+.Leu {
+    background-color: blanchedalmond;
+    border-style: outset;
+    border-top-right-radius: 30px;
+}
+

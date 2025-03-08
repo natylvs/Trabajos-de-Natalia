@@ -1,0 +1,83 @@
+.caja {
+  background-color: hsl(324, 86%, 94%);
+  border-radius: 10px;
+  border: solid black; 
+  height: 470px;
+  width: 400px;
+  margin:auto
+
+}
+
+
+.flex2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex2 > div {
+    
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.uno {
+    padding: 25px;
+    background: #e5ffe5
+}
+
+.dos {
+    padding: 25px;
+    background: rgb(245, 202, 247);
+}
+
+.tres {
+    padding: 25px;
+    background: hwb(228 86% 0%);
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.flex3 > div {
+    width: 50px;
+    border-radius: 35px;
+    background-color: #c6c6c6;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.flex4 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flex4 > div {
+    border: 5px solid  #fdfadd;
+    border-radius: 4px;
+    background-color:  #fdfadd;
+    padding: 20px;
+    width: 140px;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.flex5 > div{
+    text-align: center;
+    flex: 1;
+    border-radius: 10px;
+    background-color: #ff8fba;
+    width: 320px;
+    padding: 20px;
+}

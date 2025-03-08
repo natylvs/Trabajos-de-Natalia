@@ -1,0 +1,41 @@
+ *{
+      background-color: hsl(0, 0%, 100%);
+
+ }
+
+ /*selector comun*/
+ h1 { 
+      border: 2px solid #000000;
+      padding: 10px
+      
+}
+
+/*clase*/
+.black {
+      border: 2px solid #f7d7ed;
+      padding: 10px;
+      color: hsl(0, 0%, 0%);
+}
+
+
+/* selector de id*/
+#pink {
+     border: 2px solid #f7d7ed;
+     padding: 10px;
+     color: hsl(0, 0%, 0%)
+
+}
+
+
+h3 {
+     border: 2px solid #f7d7ed;
+     background-color: #f7d7ed;
+     padding: 10px
+
+}
+      
+h2 {
+    text-align: center;
+     border-style: dotted;
+     padding: 10px
+}

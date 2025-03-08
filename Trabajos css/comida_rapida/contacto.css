@@ -1,0 +1,85 @@
+img { width: 10%; height: auto; }
+
+body {
+  background-image: url(imagenes/fondo.jpeg);
+}
+
+.Menu {
+   padding: 10px 0;
+   margin: 0;
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   background-color: #000;
+ }
+ 
+ .Menu li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+ 
+ .Menu a {
+   text-decoration: none;
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 18px;
+ }
+ 
+ .Menu a:hover {
+   background-color: #ac7777;
+   transform: scale(1.1);
+ }
+ 
+ input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #ffb380;
+  color: white;
+}
+
+ .form-container {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+ }
+ 
+ .form-image img {
+   width: 150px;
+   margin-right: 20px;
+ }
+ 
+ .form {
+   width: 100%;
+   max-width: 500px;
+   padding: 20px;
+   align-content: center;
+ }
+ 
+ input, textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 5px 0;
+   border: 1px solid #ccc;
+ }
+ 
+ input[type="submit"] {
+   background-color: #f4a261;
+   color: white;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+   background-color: #e0763e;
+ }
+
+ .footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+ 

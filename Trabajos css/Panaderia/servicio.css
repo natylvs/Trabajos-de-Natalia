@@ -1,0 +1,67 @@
+.cuadro {
+  padding: 20px;
+  background-color: #c7c7c7cd;
+  border: none;
+  border-radius: 8px;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: #8a7b7b;
+  font-family: sans-serif;
+}
+
+.Menu {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  border: 2px solid #8a7b7b;
+  background-color: #8a7b7b;
+  padding: 10px;
+}
+
+.Menu div {
+  display: flex;
+  margin-right: 20px;
+  background-color: #8a7b7b;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: #9c8787;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+}
+
+.Menu a:hover {
+  background-color: #ffd6ef;
+  transform: scale(1.1);
+}
+
+.Menu li, .Menu a {
+  background-color: transparent;
+}
+
+
+.pie-de-pagina {
+  background-color: #8a7b7b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.pie-de-pagina p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+    

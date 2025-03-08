@@ -1,0 +1,66 @@
+.Menu {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background: #f8f8f8;
+    justify-content: center;
+}
+
+.Menu li {
+    margin-right: 15px;
+}
+
+.Menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+  
+  input, button {
+   padding: 10px;
+   font-size: 16px;
+ }
+ 
+ button {
+   background-color: #8088ff;
+   color: white;
+ }
+ 
+  .form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .form-image img {
+    width: 150px;
+    margin-right: 20px;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    align-content: center;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #8088ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #8088ff;
+  }
+ 
+  
